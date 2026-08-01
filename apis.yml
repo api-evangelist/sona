@@ -1,8 +1,28 @@
 aid: sona
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sona.png
 name: Sona
-description: 'Sona is a company surfaced as a portfolio company of northzone, polychain, speedinvest and
-  added to the API Evangelist network as a stub for enrichment. Sector: enterprise; ai. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Sona is an AI-powered workforce management platform for large, multi-site
+  organizations in hospitality, hotels, care, retail, and logistics. It unifies
+  labor demand forecasting, autonomous staff scheduling, core HR (onboarding,
+  absence, training), and payroll automation, with a Raffy AI assistant that
+  guides manager decisions plus real-time analytics across locations. Sona ships
+  95+ pre-built integrations (ATS, POS, LMS, tipping, earned-wage-access, and
+  care-planning systems) and advertises a private API for building bespoke
+  integrations, though it publishes no public developer portal, API reference,
+  or OpenAPI at this time. Added to the API Evangelist network as a VC-portfolio
+  lead (Northzone, Polychain, Speedinvest) and enriched via the local pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/sona/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Enterprise; Ai
+- Workforce Management
+- Human Resources
+- Scheduling
+- Payroll
+- Artificial Intelligence
+- Enterprise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,4 +51,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.getsona.com
+  url: https://www.sona.ai
+- type: Pricing
+  url: https://www.sona.ai/pricing
+- type: Blog
+  url: https://www.sona.ai/blog
+- type: PrivacyPolicy
+  url: https://www.sona.ai/privacy-policy
+- type: Integrations
+  url: https://www.sona.ai/products/integrations
+- type: DomainSecurity
+  url: security/sona-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
