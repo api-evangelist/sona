@@ -1,0 +1,27 @@
+# Front Door AI Index — sona — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: sona
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.sona.ai
+  final_host: www.sona.ai
+  ownership: own
+  owner: sona
+  shares_host_with:
+  - getsona
+  inherited_from: null
+  verdict: scored
+  score: 12
+  host_score: 12
+  density: 16.48
+  words: 728
+  tiers:
+    agentic: 3
+    core: 9
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 9
+    AI assistant: 3
